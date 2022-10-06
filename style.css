@@ -165,7 +165,7 @@ header {
 }
 
 footer {
-  padding-bottom: 12px;
+  padding-bottom: 8px;
   bottom: 0;
 }
 
@@ -210,4 +210,16 @@ footer {
 .footer__links .fa {
   vertical-align: middle;
   font-size: 21px;
+}
+
+.footerContainer {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  position: sticky;
+}
+
+.copyright {
+  font: 1rem/1.516 "Montserrat", Arial, sans-serif;
 }
